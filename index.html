@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category-0001</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8c60523fa8.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .font-adlam{
+        font-family: "ADLaM Display", serif;
+    }
+    .font-sora{
+        font-family: "Sora", serif;
+    }
+    
+  </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="navbar bg-base-100 bg-[#FFF9F4] h-20 font-sora">
+            <div class="w-4/5 mx-auto">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-96 ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Find a pet</a></li>
+                  <li><a>Breeds</a></li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+            
+              <div class="flex -mt-10 lg:mt-2 mb-6   ">
+              <img src="c1-assets/logo-header.png" alt="">
+              <a class="btn btn-ghost text-xl   hidden md:flex text-2xl font-medium text-[#111111] gap-0">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+        
+            </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-xl font-normal text-[#111111]"><a>Find a pet</a></li>
+                <li class="text-xl font-normal text-[#111111]"><a>Breeds</a></li>
+                <li class="text-xl font-normal text-[#111111]"><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-5 hidden lg:flex">
+                <div class="mt-4 flex ">
+                <i class="fa-regular fa-bell mr-5"></i>
+                <i class="fa-solid fa-magnifying-glass mr-2"></i>
+            </div>
+              <a class="border-2 border-solid border-[#FFDC26] px-5 py-2 rounded-lg text-xl font-normal text-[#111111]">Login</a>
+              <a class="bg-[#FFDC26] px-5 py-2 rounded-md text-xl font-normal text-[#111111]">Register</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <section class="max-w-screen-xl mx-auto my-20">
+        <div class="ml-8 lg:absolute z-10 ">
+            <h1 class="font-adlam text-5xl font-bold text-[#111111] ">Pamper Your Pet,<br>
+                Because They Deserve<br>
+                the Bes</h1>
+            <p class="font-sora text-xl font-normal text-[#111111] mt-8">Discover a world of treats, toys, and essentials handpicked for<br>
+                your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="btn font-sora text-xl font-normal text-[#111111] bg-[#FFDC26] px-8 py-3 mt-8">Find a pet</button>
+        </div>
+        <div class="relative">
+            <img src="c1-assets/cat-big.png" alt="">
+        </div>
+    </section>
+    
+   </header>
+
+
+   <main>
+    <section class="max-w-screen-xl mx-auto mt-32 mb-20 ">
+      <h1 class="font-adlam text-4xl font-medium text-[#111111] ml-10 lg:m-auto ">Browse By Categories</h1>
+      <div class="grid grid-cols-2 lg:grid-cols-6 gap-5 lg:gap-8 ml-10 lg:m-auto mt-12 lg:mt-16">
+        <div class="w-48 h-60  content-center justify-items-center bg-[#F9DF8A] rounded-xl">
+          <img class="bg-white p-5 rounded-full" src="c1-assets/dog-cartoon.png" alt="">
+          <h3 class="text-xl font-medium text-[#000000] font-adlam mt-5">Dog</h3>
+          <p class="font-medium font-sora mt-4">3 items</p>
+        </div>
+        <div class="w-48 h-60  content-center justify-items-center bg-[#F9DF8A] rounded-xl">
+          <img class="bg-white p-5 rounded-full" src="c1-assets/fish-cartoon.png" alt="">
+          <h3 class="text-xl font-medium text-[#000000] font-adlam mt-5">Dog</h3>
+          <p class="font-medium font-sora mt-4">3 items</p>
+        </div>
+        <div class="w-48 h-60  content-center justify-items-center bg-[#F9DF8A] rounded-xl">
+          <img class="bg-white p-5 rounded-full" src="c1-assets/cat-cartoon.png" alt="">
+          <h3 class="text-xl font-medium text-[#000000] font-adlam mt-5">Dog</h3>
+          <p class="font-medium font-sora mt-4">3 items</p>
+        </div>
+        <div class="w-48 h-60  content-center justify-items-center bg-[#F9DF8A] rounded-xl">
+          <img class="bg-white p-5 rounded-full" src="c1-assets/bird-cartoon.png" alt="">
+          <h3 class="text-xl font-medium text-[#000000] font-adlam mt-5">Dog</h3>
+          <p class="font-medium font-sora mt-4">3 items</p>
+        </div>
+        <div class="w-48 h-60  content-center justify-items-center bg-[#F9DF8A] rounded-xl">
+          <img class="bg-white p-5 rounded-full" src="c1-assets/mouse-cartoon.png" alt="">
+          <h3 class="text-xl font-medium text-[#000000] font-adlam mt-5">Dog</h3>
+          <p class="font-medium font-sora mt-4">3 items</p>
+        </div>
+        <div class="w-48 h-60  content-center justify-items-center bg-[#F9DF8A] rounded-xl">
+          <img class="bg-white p-5 rounded-full" src="c1-assets/rabbit-cartoon.png" alt="">
+          <h3 class="text-xl font-medium text-[#000000] font-adlam mt-5">Dog</h3>
+          <p class="font-medium font-sora mt-4">3 items</p>
+        </div>
+      </div>
+    </section>
+
+   </main>
+
+   <footer>
+
+   </footer>
+</body>
+</html>
